@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class OkController {
-	@RequestMapping("/index")
+	@RequestMapping("/about")
 	public String index() {
 		//Gọi file index
-		return "index";
+		return "about";
 	}
 }
 
