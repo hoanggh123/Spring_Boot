@@ -30,7 +30,6 @@ pageEncoding="UTF-8"%>
   </head>
   <body>
     <jsp:include page="/view/header_component.jsp"></jsp:include>
-
     <div class="container cartegory-container">
       <div class="row cartegory-list">
         <div class="col-sm-3 mb-lg-0 mb-2">
