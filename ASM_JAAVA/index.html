@@ -14,10 +14,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   </head>
+
   <body>
+    <script>
+    let items = document.querySelectorAll(".carousel .carousel-items");
+  items.forEach((el) => {
+    const minPerSlide = 4;
+    let next = el.nextElementSibling;
+    for (var i = 1; i < minPerSlide; i++) {
+      if (!next) {
+        // wrap carousel by using first child
+        next = items[0];
+      }
+      let cloneChild = next.cloneNode(true);
+      el.appendChild(cloneChild.children[0]);
+      next = next.nextElementSibling;
+    }
+  });
+
+    </script>
     <div ng-include="'header_component.html'"></div>
     <ng-view></ng-view>
     <div ng-include="'footer_component.html'"></div>
+
   </body>
   <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
   <script src="bootstrap-5.2.2-dist/js/angular.min.js"></script>
