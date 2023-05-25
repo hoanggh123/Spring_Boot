@@ -1,4 +1,5 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <div iv class="container details-container">
   <div class="row details-content">
     <div class="col-sm-6 details-products">
@@ -77,8 +78,8 @@
       <span class="details-name">{{products[index].name}}</span>
       <div class="divider"></div>
       <div class="details-product">
-        <p class="price-old">{{products[index].price_old|number:0}}Đ</p>
-        <p class="price">{{products[index].Price|number:0}}Đ</p>
+        <p class="price-old">{{products[index].price_old|number:0}}Ä</p>
+        <p class="price">{{products[index].Price|number:0}}Ä</p>
       </div>
       <p class="title-details">{{products[index].description1}}</p>
       <ul>
@@ -95,7 +96,7 @@
           <input type="text" min="0" value="1" class="input-amount">
           <button class="upanddown">+</button>
         </div>
-        <button ng-click="addCart(products[index])" class="btn-details">Thêm vào giỏ hàng</button>
+        <button ng-click="addCart(products[index])" class="btn-details">ThÃªm vÃ o giá» hÃ ng</button>
       </div>
 
     </div>
@@ -105,10 +106,10 @@
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
         <button class="nav-link active" id="nav-home-tab"
           data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
-          role="tab" aria-controls="nav-home" aria-selected="true">MÔ TẢ</button>
+          role="tab" aria-controls="nav-home" aria-selected="true">MÃ Táº¢</button>
         <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
           data-bs-target="#nav-profile" type="button" role="tab"
-          aria-controls="nav-profile" aria-selected="false">ĐÁNH GIÁ</button>
+          aria-controls="nav-profile" aria-selected="false">ÄÃNH GIÃ</button>
       </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
@@ -124,14 +125,14 @@
         aria-labelledby="nav-profile-tab" tabindex="0">
         <div class="evaluate-list">
           <div class="evaluate-comments">
-            <h3 class="normal">Đánh giá</h3>
-            <p class="details-description">Chưa có đánh giá nào</p>
+            <h3 class="normal">ÄÃ¡nh giÃ¡</h3>
+            <p class="details-description">ChÆ°a cÃ³ ÄÃ¡nh giÃ¡ nÃ o</p>
           </div>
           <div class="evaluate-comments">
             <div class="evaluate-review">
               <div class="comments-list">
-                <h3 class="normal">Hãy là người đầu tiên đánh giá</h3>
-                <label for="">Đánh giá của bạn</label>
+                <h3 class="normal">HÃ£y lÃ  ngÆ°á»i Äáº§u tiÃªn ÄÃ¡nh giÃ¡</h3>
+                <label for="">ÄÃ¡nh giÃ¡ cá»§a báº¡n</label>
                 <div class="card-details mt-3">
                   <div class="d-flex align-items-center">
                     <div class="small-ratings">
@@ -164,14 +165,14 @@
                 <form action="">
                   <div class="row login">
                     <div class="form-group col-sm-12">
-                      <label class="details-form-title" for="">Nhận xét của bạn
+                      <label class="details-form-title" for="">Nháº­n xÃ©t cá»§a báº¡n
                         *</label>
                       <input class="form-control details-form" type="text">
                     </div>
                   </div>
                   <div class="row login">
                     <div class="form-group col-sm-6">
-                      <label class="details-form-title" for="">Tên *</label>
+                      <label class="details-form-title" for="">TÃªn *</label>
                       <input class="form-control" type="">
                     </div>
                     <div class="form-group col-sm-6">
