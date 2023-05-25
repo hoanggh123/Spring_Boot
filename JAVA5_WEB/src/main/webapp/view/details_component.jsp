@@ -5,7 +5,7 @@
     <div class="col-sm-6 details-products">
       <div class="details-header">
         <div class="promotion">
-          <p class="promotion-item">{{products[index].promotion}}%</p>
+          <p class="promotion-item"></p>
         </div>
         <button class="details-interactive">
           <i class="icofont-heart details-icons"></i>
