@@ -191,8 +191,8 @@ a {
   line-height: 27.648px;
   margin: 11.52px 0px 0px;
   padding: 0px 13.824px;
+  float: right;
   text-transform: uppercase;
-  margin-left: 93px;
 }
 .home_product {
   text-align: center;
@@ -269,7 +269,6 @@ a {
 .card {
   border: 1px solid #353535;
   border-radius: 10px;
-  padding: 4px !important;
   margin: 12px 0 !important;
 }
 .carousel-itemss {

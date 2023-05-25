@@ -1,4 +1,5 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <div  class="header">
   <div class="header-top">
     <div class="container">
@@ -44,8 +45,8 @@
           </button>
         </div>
         <div class="user row col-sm-2">
-          <a class="user-item col-sm-6" href="#!login">Đăng nhập</a>
-          <a class="user-item col-sm-4" href="#!register">Đăng kí</a>
+          <a class="user-item col-sm-6" href="login">Đăng nhập</a>
+          <a class="user-item col-sm-4" href="register">Đăng kí</a>
           <div class="user-cart col-sm-2">
             <span class="cart-amount"></span>
             <a href="#!cart"><i class="icofont-shopping-cart"></i></a>
@@ -62,7 +63,7 @@
             id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#!home">
+                <a class="nav-link" href="index">
                   <i class="icofont-home"></i>
                   Trang chủ
                 </a>
@@ -74,7 +75,7 @@
                 </a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#!category">
+                <a class="nav-link" href="category">
                   <i class="icofont-bag"></i>
                   Sản phẩm
                 </a>

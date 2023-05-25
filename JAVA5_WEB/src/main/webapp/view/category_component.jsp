@@ -1,3 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html  lang="vn">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ hải Triều</title>
+    <link rel="stylesheet" href="/view/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/view/icofont/icofont.min.css">
+    <link rel="stylesheet" href="/view/icofont/icofont.css">
+    <link rel="stylesheet" href="/view/styles.css">
+    <link rel="stylesheet" href="/view/logreg.css">
+    <link rel="stylesheet" href="/view/assets/fonts/fontawesome-free-6.0.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <jsp:include page="/view/header_component.jsp"></jsp:include>
 
 <div class="container cartegory-container">
   <div class="row cartegory-list">
@@ -127,13 +147,13 @@
     </div>
     <div class="row col-sm-9">
       <div class="col-sm-4">
-        <div class="card" style="padding: 0 !important;">
+        <div class="card">
           <div class="img-container">
             <div class="d-flex justify-content-between
               align-items-center p-2 first"> <span class="percent">50%</span>
               <span class="wishlist"><i class="fa fa-heart"></i></span>
             </div>
-            <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+            <a href="#!detail/{{$index}}"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                 class="img-fluid"></a>
           </div>
           <div class="product-detail-container">
@@ -201,13 +221,13 @@
           
         </div>
         <div class="col-sm-4">
-          <div class="card" style="padding: 0 !important;">
+          <div class="card">
             <div class="img-container">
               <div class="d-flex justify-content-between
                 align-items-center p-2 first"> <span class="percent">50%</span>
                 <span class="wishlist"><i class="fa fa-heart"></i></span>
               </div>
-              <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+              <a href=""><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                   class="img-fluid"></a>
             </div>
             <div class="product-detail-container">
@@ -275,13 +295,13 @@
             
           </div>
           <div class="col-sm-4">
-            <div class="card" style="padding: 0 !important;">
+            <div class="card">
               <div class="img-container">
                 <div class="d-flex justify-content-between
                   align-items-center p-2 first"> <span class="percent">50%</span>
                   <span class="wishlist"><i class="fa fa-heart"></i></span>
                 </div>
-                <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+                <a href=""><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                     class="img-fluid"></a>
               </div>
               <div class="product-detail-container">
@@ -349,13 +369,13 @@
               
             </div>
             <div class="col-sm-4">
-              <div class="card" style="padding: 0 !important;">
+              <div class="card">
                 <div class="img-container">
                   <div class="d-flex justify-content-between
                     align-items-center p-2 first"> <span class="percent">50%</span>
                     <span class="wishlist"><i class="fa fa-heart"></i></span>
                   </div>
-                  <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+                  <a href=""><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                       class="img-fluid"></a>
                 </div>
                 <div class="product-detail-container">
@@ -423,13 +443,13 @@
                 
               </div>
               <div class="col-sm-4">
-                <div class="card" style="padding: 0 !important;">
+                <div class="card">
                   <div class="img-container">
                     <div class="d-flex justify-content-between
                       align-items-center p-2 first"> <span class="percent">50%</span>
                       <span class="wishlist"><i class="fa fa-heart"></i></span>
                     </div>
-                    <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+                    <a href=""><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                         class="img-fluid"></a>
                   </div>
                   <div class="product-detail-container">
@@ -497,13 +517,13 @@
                   
                 </div>
                 <div class="col-sm-4">
-                  <div class="card" style="padding: 0 !important;">
+                  <div class="card">
                     <div class="img-container">
                       <div class="d-flex justify-content-between
                         align-items-center p-2 first"> <span class="percent">50%</span>
                         <span class="wishlist"><i class="fa fa-heart"></i></span>
                       </div>
-                      <a href="#!detail/1"><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
+                      <a href=""><img src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
                           class="img-fluid"></a>
                     </div>
                     <div class="product-detail-container">
@@ -575,4 +595,16 @@
       
     </div>
   </div>
-</div>
+
+
+      <jsp:include page="/view/footer_component.jsp"></jsp:include>
+  </body>
+  <script src="/view/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/view/bootstrap-5.2.2-dist/js/angular.min.js"></script>
+  <script src="/view/bootstrap-5.2.2-dist/js/angular-route.min.js"></script>
+  <script src="/view/route_component.js"></script>
+  <script src="/view/bootstrap-5.2.2-dist/js/dirPaginate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</html>
+
