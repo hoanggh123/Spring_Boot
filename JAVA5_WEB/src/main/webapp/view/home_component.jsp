@@ -26,35 +26,17 @@
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
       <img
-        src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+        src="https://lh3.googleusercontent.com/qOrBIQw0fujbab_5ucewKpvInlZBpo9wt0QDrryM58ijaKH74xIfvD_haJentCJuYNk9lSxygBaLOUWpL2hjtaZseAlU-Lkp=w1920-rw"
         class="d-block w-100"
         alt="..."
       />
-      <div class="carousel-caption d-none d-md-block text-white">
-        <h4>Mona Watch</h4>
-        <h1>Đồng hồ Classico</h1>
-        <p>
-          Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều
-          thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về
-          phong cách, kiểu dáng, màu sắc, kích cỡ…
-        </p>
-      </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img
-        src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+        src="https://lh3.googleusercontent.com/FeE-2OLVlgr0rLqJcHXyzuvEEpgnYp1XBJ60hZq6YD4sZgHlzYJMFcAS66_79y-rBWOFhvamh5zKy8jjIuHuhhuIOJ2pA_Q=w1920-rw"
         class="d-block w-100"
         alt=""
       />
-      <div class="carousel-caption d-none d-md-block text-white">
-        <h4>Mona Watch</h4>
-        <h1>Đồng hồ Classico</h1>
-        <p>
-          Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều
-          thương hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về
-          phong cách, kiểu dáng, màu sắc, kích cỡ…
-        </p>
-      </div>
     </div>
   </div>
   <button
@@ -82,14 +64,14 @@
     <div class="col-sm-6">
       <div class="banner-img">
         <div class="banner-title">
-          <h3>Xu hướng 2023</h3>
+            
           <div class="is-divider divider"></div>
-          <h2 class="">ĐỒNG HỒ NAM</h2>
+         
         </div>
         <div class="col-sm-12 banner-images">
-          <a href="category.html">
+          <a href="category">
             <img
-              src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+              src="https://lh3.googleusercontent.com/zqSD5ADrV5yBewbxrkIYXEnDYjgDCldElzLr2TPtqWQ4VHogv6Yj33CP7qSrBMBU1gUhS3IWUjyh7ni-jSFp99G1kzOkhmFAmA=w411-rw"
               class="w-100"
               alt="..."
           /></a>
@@ -99,14 +81,12 @@
     <div class="col-sm-6">
       <div class="banner-img">
         <div class="banner-title">
-          <h3>Xu hướng 2023</h3>
           <div class="is-divider divider"></div>
-          <h2 class="">ĐỒNG HỒ NAM</h2>
         </div>
         <div class="col-sm-12 banner-images">
-          <a href="category.html">
+          <a href="category">
             <img
-              src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+              src="https://lh3.googleusercontent.com/zqSD5ADrV5yBewbxrkIYXEnDYjgDCldElzLr2TPtqWQ4VHogv6Yj33CP7qSrBMBU1gUhS3IWUjyh7ni-jSFp99G1kzOkhmFAmA=w411-rw"
               class="w-100"
               alt="..."
           /></a>
@@ -501,14 +481,14 @@
     <div class="mt-3 col-sm-6">
       <div class="banner-img">
         <div class="banner-title">
-          <h3>Xu hướng 2023</h3>
+            
           <div class="is-divider divider"></div>
-          <h2 class="">ĐỒNG HỒ NAM</h2>
+          
         </div>
         <div class="col-sm-12 banner-images">
           <a href="category.html">
             <img
-              src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+              src="https://lh3.googleusercontent.com/zqSD5ADrV5yBewbxrkIYXEnDYjgDCldElzLr2TPtqWQ4VHogv6Yj33CP7qSrBMBU1gUhS3IWUjyh7ni-jSFp99G1kzOkhmFAmA=w411-rw"
               class="w-100"
               alt="..."
           /></a>
@@ -518,14 +498,14 @@
     <div class="mt-3 col-sm-6">
       <div class="banner-img">
         <div class="banner-title">
-          <h3>Xu hướng 2023</h3>
+            
           <div class="is-divider divider"></div>
-          <h2 class="">ĐỒNG HỒ NAM</h2>
+      
         </div>
         <div class="col-sm-12 banner-images">
           <a href="category.html">
             <img
-              src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg"
+              src="https://lh3.googleusercontent.com/zqSD5ADrV5yBewbxrkIYXEnDYjgDCldElzLr2TPtqWQ4VHogv6Yj33CP7qSrBMBU1gUhS3IWUjyh7ni-jSFp99G1kzOkhmFAmA=w411-rw"
               class="w-100"
               alt="..."
           /></a>
