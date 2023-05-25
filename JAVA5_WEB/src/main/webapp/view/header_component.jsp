@@ -1,14 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<div  class="header">
+pageEncoding="UTF-8"%>
+<div class="header">
   <div class="header-top">
     <div class="container">
       <div class="row">
         <div class="top-left col-sm-10">
           <div class="showroom">
             <i class="icofont-google-map"></i>
-            <span class="shooroom-title">90 Trần Bá Giao,Phường 5,Gò
-              Vấp,TPHCM</span>
+            <span class="shooroom-title"
+              >90 Trần Bá Giao,Phường 5,Gò Vấp,TPHCM</span
+            >
           </div>
           <div class="hotline">
             <i class="icofont-google-map"></i>
@@ -31,15 +32,16 @@
   </div>
   <div class="header-container">
     <div class="container">
-      <div class="row ">
+      <div class="row">
         <div class="logo col-sm-2s">
-          <img class="logo-img"
+          <img
+            class="logo-img"
             src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/logo-mona-2.png"
-            alt="">
+            alt=""
+          />
         </div>
         <div class="search col-sm-8">
-          <input type="text" class="search-input"
-                placeholder="...">
+          <input type="text" class="search-input" placeholder="..." />
           <button class="search-btn">
             <i class="icofont-search-1"></i>
           </button>
@@ -59,8 +61,7 @@
     <div class="container">
       <nav class="row navbar navbar-expand-lg navbar-dark">
         <div class="row container-fluid">
-          <div class="collapse navbar-collapse"
-            id="navbarNavDarkDropdown">
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
                 <a class="nav-link" href="index">
@@ -95,14 +96,10 @@
             </ul>
             <ul class="navbar-nav">
               <li class="nav-items dropdown">
-                <a class="nav-link" href="#">
-                  English
-                </a>
+                <a class="nav-link" href="#"> English </a>
               </li>
               <li class="nav-items dropdown">
-                <a class="nav-link" href="#">
-                  Tiếng Việt
-                </a>
+                <a class="nav-link" href="#"> Tiếng Việt </a>
               </li>
             </ul>
           </div>
