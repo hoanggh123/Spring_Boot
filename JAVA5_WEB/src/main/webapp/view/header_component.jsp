@@ -51,7 +51,7 @@ pageEncoding="UTF-8"%>
           <a class="user-item col-sm-4" href="register">Đăng kí</a>
           <div class="user-cart col-sm-2">
             <span class="cart-amount"></span>
-            <a href="#!cart"><i class="icofont-shopping-cart"></i></a>
+            <a href="shopping"><i class="icofont-shopping-cart"></i></a>
           </div>
         </div>
       </div>
