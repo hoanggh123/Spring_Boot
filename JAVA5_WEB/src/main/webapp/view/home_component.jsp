@@ -150,10 +150,12 @@
               <span class="percent">-25%</span>
               <span class="wishlist"><i class="fa fa-heart"></i></span>
             </div>
-            <img
+            <a href="/view/details_component.jsp">
+              <img
               src="https://i.pinimg.com/564x/ab/54/a8/ab54a8043d30a7c3bfd4aba6a167013b.jpg"
               class="img-fluid" style="margin-left: 0px;"
             />
+            </a>
           </div>
           <div class="product-detail-container">
             <div class="d-flex justify-content-between align-items-center">
