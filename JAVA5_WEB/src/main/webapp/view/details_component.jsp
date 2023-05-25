@@ -75,7 +75,7 @@
       </div>
     </div>
     <div class="col-sm-6">
-      <span class="details-name">{{products[index].name}}</span>
+      <span class="details-name">{{products[index].name}}d</span>
       <div class="divider"></div>
       <div class="details-product">
         <p class="price-old">{{products[index].price_old|number:0}}Ä</p>
