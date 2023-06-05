@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "tbl_user")
 @Entity
 public class User extends MilkTeaBase {
-  
+
 	@Length(max = 250)
 	private String email;
 	@Length(max = 11)
@@ -32,10 +32,11 @@ public class User extends MilkTeaBase {
 	private String address;
 	@Length(max = 6)
 	private String nameCode;
-	
-	@OneToMany(mappedBy = "user")
-	private List<UserRole> userRoles;
-	
+
+	private Integer admin;
+	private Integer sellers;
+	private Integer client;
+
 	@OneToMany(mappedBy = "user")
 	private List<Order> orders;
 }
